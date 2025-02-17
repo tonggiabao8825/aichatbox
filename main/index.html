@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="main.css">
+    <script src="main.js"></script>
+
+
+    <title>Jarvis Chatbox</title>
+</head>
+<body>
+    <div class="container">
+        <!-- Profile Sidebar -->
+        <div class="profile-section">
+            <div class="profile-header">
+                <h1 class="profile-name">Kan Pham</h1>
+                <span class="status">online</span>
+            </div>
+            <div class="profile-title"><p>Make the world better</p><p>by model and data.</p></div>
+            <img src="/media/khanh.jpg" alt="Profile" class="profile-image">
+            <div class="profile-description">
+                <p><i class='bx bx-briefcase'></i> Senior AI Engineer at FPT</p>
+                <p> <i class='bx bx-briefcase'></i> Teacher at NEU</p>
+                <p><i class='bx bx-briefcase'></i>Team Leader at FPT AIC</p>
+
+            </div>
+            <button class="resgister-button" >
+                <i class='bx bx-bookmark' ></i> Đăng kí ngay!
+                
+            </button>
+        </div>
+
+        <!-- Chat Box -->
+        <div class="chatbox">
+            <div class="chatarea">
+                <div class="column-header">Kan Pham</div>
+                <div class="chat-messages">
+                    <div class="typing">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <div class="respond">
+                        
+                        Xin chào! Tôi là Kan Pham. Tôi có thể giúp gì cho bạn về AI, Machine Learning và các ứng dụng của chúng?
+                    </div>
+                </div>
+                <div class="suggested-messages">
+                    <div class="suggested-message">Các dự án AI tại FPT?</div>
+                    <div class="suggested-message">Kinh nghiệm làm việc với AI?</div>
+                    <div class="suggested-message">Lộ trình học AI/ML?</div>
+                </div>
+                <div class="chat-input-container">
+                    <textarea 
+                        class="chat-input" 
+                        placeholder="Nhập tin nhắn của bạn..." 
+                        rows="1"
+                    ></textarea>
+                    <div class="chat-controls">
+                        <button class="chat-button">
+                            <i class='bx bx-send'></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="credit-footer">
+                <p>Dev by <a href="https://www.facebook.com/TongGiaBao.User"><span class="dev-credit">BaroDev</span> <i class='bx bx-code-alt'></i></a></p>
+            </div>
+        </div>
+        
+    </div>
+</body>
+</html>
